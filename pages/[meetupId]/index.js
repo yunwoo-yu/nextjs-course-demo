@@ -60,10 +60,10 @@ export async function getStaticProps(context) {
     props: {
       meetupData: {
         id: selectedMeetup._id.toString(),
-        title: selectedMeetup.data.title,
-        address: selectedMeetup.data.address,
-        image: selectedMeetup.data.image,
-        description: selectedMeetup.data.description,
+        title: selectedMeetup.title,
+        address: selectedMeetup.address,
+        image: selectedMeetup.image,
+        description: selectedMeetup.description,
       },
     },
   };
